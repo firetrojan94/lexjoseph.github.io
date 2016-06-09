@@ -22,7 +22,7 @@ svg{
 }
 
 /*typed cursor*/
-#typed-cursor{
+.typed-cursor{
     opacity: 1;
     font-weight: 100;
     font-size: 30px;
