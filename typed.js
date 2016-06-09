@@ -276,7 +276,7 @@
                 //every other time, delete the whole typed string
                  else{
                   self.stopNum = 0;
-                /}
+                }
 
                 if (self.contentType === 'html') {
                     // skip over html tags while backspacing
