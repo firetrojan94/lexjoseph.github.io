@@ -1,4 +1,4 @@
-@import "compass/css3";
+/*@import "compass/css3";
 
 @import url(http://fonts.googleapis.com/css?family=Share+Tech+Mono);
 
@@ -30,7 +30,7 @@ svg{
 	display: inline;
 }
 
-/*typed cursor*/
+/typed cursor/
 .typed-cursor{
     opacity: 1;
     font-weight: 100;
@@ -56,4 +56,4 @@ svg{
     50% { opacity:0; }
     100% { opacity:1; }
 }
-
+*/
