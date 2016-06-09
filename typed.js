@@ -274,12 +274,11 @@
                     while(self.arrayPos == 1)
                     {
                       self.stopNum = 11;
-                      }
+                    }
 
-                //every other time, delete the whole typed string
-                // else{
-                //  self.stopNum = 0;
-                 }
+                    else{
+                             self.stopNum = 0;
+                        }
 
                 if (self.contentType === 'html') {
                     // skip over html tags while backspacing
