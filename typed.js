@@ -270,7 +270,7 @@
                 // on the first string, only delete one word
                 // the stopNum actually represents the amount of chars to
                 // keep in the current string. In my case it's 14.
-             if (self.arrayPos == 1){
+             if (self.arrayPos == 0){
               self.stopNum = 14;
                 }
                 //every other time, delete the whole typed string
