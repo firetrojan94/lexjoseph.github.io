@@ -270,19 +270,19 @@
                 // on the first string, only delete one word
                 // the stopNum actually represents the amount of chars to
                 // keep in the current string. In my case it's 14.
-             if (self.arrayPos == 0){
+             /*if (self.arrayPos == 0){
               self.stopNum = 14;
                 }
                 //every other time, delete the whole typed string
                  else{
                   self.stopNum = 14;
-                }
+                }*/
 
                 if (self.contentType === 'html') {
                     // skip over html tags while backspacing
-                    if (curString.substr(curStrPos).charAt(0) === '>') {
+                    if (curString.substr(curStrPos).charAt(1) === '>') {
                         var tag = '';
-                        while (curString.substr(curStrPos).charAt(0) !== '<') {
+                        while (curString.substr(curStrPos).charAt(1) !== '<') {
                             tag -= curString.substr(curStrPos).charAt(0);
                             curStrPos--;
                         }
@@ -293,7 +293,7 @@
 
                 // ----- continue important stuff ----- //
                 // replace text with base text + typed characters
-                var nextString = curString.substr(0, curStrPos);
+                var nextString = curString.substr(1, curStrPos);
                 if (self.attr) {
                     self.el.attr(self.attr, nextString);
                 } else {
@@ -320,7 +320,7 @@
                     self.arrayPos++;
 
                     if (self.arrayPos === self.strings.length) {
-                        self.arrayPos = 0;
+                        self.arrayPos = 1;
 
                         // Shuffle sequence again
                         if(self.shuffle) self.sequence = self.shuffleArray(self.sequence);
