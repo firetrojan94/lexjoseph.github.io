@@ -271,10 +271,11 @@
                 // the stopNum actually represents the amount of chars to
                 // keep in the current string. In my case it's 14.
                 // if 
-                    do{
+                    while(self.arrayPos == 1)
+                    {
                       self.stopNum = 11;
                       }
-                while (self.arrayPos == 1)
+
                 //every other time, delete the whole typed string
                 // else{
                 //  self.stopNum = 0;
