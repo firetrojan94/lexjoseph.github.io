@@ -270,14 +270,13 @@
                 // on the first string, only delete one word
                 // the stopNum actually represents the amount of chars to
                 // keep in the current string. In my case it's 14.
-             while(self.arrayPos == 0)
-                do{
+             if (self.arrayPos == 0){
               self.stopNum = 14;
                 }
                 //every other time, delete the whole typed string
-                 /*else{
-                  self.stopNum = 0;
-                }*/
+                 else{
+                  self.stopNum = 14;
+                }
 
                 if (self.contentType === 'html') {
                     // skip over html tags while backspacing
