@@ -43,6 +43,11 @@ p {
   line-height: 1.5;
   margin-bottom: 20px;
 }
+img {
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+}
 .bg-primary {
   background-color: #f05f40;
 }
