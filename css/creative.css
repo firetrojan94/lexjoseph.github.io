@@ -60,7 +60,7 @@ img {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/gradpic4.jpg');
+  background-image: url('../img/image.jpg');
   text-align: center;
   color: white;
 }
@@ -168,7 +168,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/image.jpg');
+  background-image: url('../img/gradpic4.jpg');
   text-align: center;
   color: white;
 }
